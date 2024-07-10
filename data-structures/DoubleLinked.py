@@ -60,29 +60,3 @@ class DoublyLinkedList:
                 print(f'{curr}', end=" -> ")
                 curr = curr.next
             print("None", end="\n")
-            
-
-if __name__ == "__main__":
-    # Test creation and print list
-    dlList = DoublyLinkedList()
-    dlList.printList()
-    
-    # Test insert and printList
-    dlList.insertFront(3)
-    dlList.printList()
-    dlList.insertFront(50)
-    dlList.printList()
-
-    # Test pop
-    dlList.pop()
-    dlList.printList()
-    dlList.pop()
-    dlList.printList()
-
-    # Test length
-    print(dlList.length())
-    dlList.insertFront(23)
-    dlList.printList()
-    print(dlList.length())
-
-

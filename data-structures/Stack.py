@@ -80,33 +80,3 @@ class LinkedListStack:
 
     def length(self):
         return self.length
-
-    
-
-    
-
-
-
-if __name__ == "__main__":
-    # Test Creation and print
-    stack = ListStack()
-    print(stack.length())
-    stack.printStack()
-    
-    # Test push
-    stack.push(2)
-    print(stack.length())
-    stack.printStack()
-
-    stack.push(3)
-    print(stack.length())
-    stack.printStack()
-    
-    # Test pop
-    stack.pop()
-    print(stack.length())
-    stack.printStack()
-    
-    stack.pop()
-    print(stack.length())
-
