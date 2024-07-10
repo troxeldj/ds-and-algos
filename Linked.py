@@ -31,10 +31,10 @@ class LinkedList:
         if not self.head:
             raise Exception("Empty List")
         elif self.head.next == None:
+            retVal = self.head
             self.head = None
+            return retVal
         else:
-            # Todo
-            
             curr = self.head
             newTail = curr
             while(curr.next != None):
