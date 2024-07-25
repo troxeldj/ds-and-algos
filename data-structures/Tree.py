@@ -120,7 +120,6 @@ class BinaryTree:
 
 
 
-
 if __name__ == "__main__":
     # test tree
     print("TEST GENERIC TREE\n")
