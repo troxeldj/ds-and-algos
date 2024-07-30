@@ -26,7 +26,7 @@ class LinkedList:
                 found = True
             curr = curr.next
         return found
-
+    
     def pop(self) -> Node:
         if not self.head:
             raise Exception("Empty List")
